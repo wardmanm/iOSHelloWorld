@@ -10,6 +10,7 @@
 		147546261910582500D526E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147546251910582500D526E0 /* Foundation.framework */; };
 		147546291910582500D526E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147546281910582500D526E0 /* main.m */; };
 		1475462D1910582500D526E0 /* Hello_World.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1475462C1910582500D526E0 /* Hello_World.1 */; };
+		1475463519106EE100D526E0 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475463419106EE100D526E0 /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		147546281910582500D526E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1475462B1910582500D526E0 /* Hello World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello World-Prefix.pch"; sourceTree = "<group>"; };
 		1475462C1910582500D526E0 /* Hello_World.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hello_World.1; sourceTree = "<group>"; };
+		1475463319106ED600D526E0 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		1475463419106EE100D526E0 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		147546271910582500D526E0 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				1475463419106EE100D526E0 /* console.m */,
+				1475463319106ED600D526E0 /* console.h */,
 				147546281910582500D526E0 /* main.m */,
 				1475462C1910582500D526E0 /* Hello_World.1 */,
 				1475462A1910582500D526E0 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147546291910582500D526E0 /* main.m in Sources */,
+				1475463519106EE100D526E0 /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
